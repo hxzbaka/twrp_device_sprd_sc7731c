@@ -1,4 +1,4 @@
-import init.sc7731c.usb.rc
+import init.sc7731c.rc
 import init.modules.rc
 
 #add for board init.rc for recovery mode
