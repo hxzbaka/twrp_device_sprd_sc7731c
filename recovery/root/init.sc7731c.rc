@@ -71,8 +71,8 @@ on post-fs
     chmod 0771 /productinfo
     chown system system /oem
     chmod 0771 /oem
-    insmod /system/lib/modules/mali.ko
-    insmod /system/lib/modules/trout_fm.ko
+    insmod /lib/modules/mali.ko
+    insmod /lib/modules/trout_fm.ko
 
 on post-fs-data
     copy /system/etc/bluetooth/bt_stack.conf /data/misc/bluedroid/bt_stack.conf
