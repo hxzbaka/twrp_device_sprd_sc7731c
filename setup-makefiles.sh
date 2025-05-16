@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=ix
-VENDOR=iku
+DEVICE=sprd
+VENDOR=sc7731c
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
