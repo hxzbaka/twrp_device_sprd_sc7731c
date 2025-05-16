@@ -1,3 +1,0 @@
-on post-fs
-    insmod /lib/modules/mali.ko
-    insmod /lib/modules/trout_fm.ko
