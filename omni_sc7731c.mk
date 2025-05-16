@@ -14,15 +14,15 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from ix device
 $(call inherit-product, device/sprd/sc7731c/device.mk)
 
-PRODUCT_DEVICE := sprd
+PRODUCT_DEVICE := sc7731c
 PRODUCT_NAME := omni_sc7731c
 PRODUCT_BRAND := SPRD
-PRODUCT_MODEL := sc7731c
-PRODUCT_MANUFACTURER := SPRD
+PRODUCT_MODEL := SP7731CEB
+PRODUCT_MANUFACTURER := sprd
 
-PRODUCT_GMS_CLIENTID_BASE := android-jimi
+PRODUCT_GMS_CLIENTID_BASE := android-sprd
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="sc7731c_project-user 8.1.0 OPM2.171019.012 01119 release-keys"
+    PRIVATE_BUILD_DESC="sp7731ceb_dt_oversea-user 5.1 LMY47D eng.root.20161213.122913 release-keys"
 
-BUILD_FINGERPRINT := SPRD/sc7731c/sc7731c:8.1.0/OPM2.171019.012/00422:user/release-keys
+BUILD_FINGERPRINT := SPRD/sp7731ceb_dt_oversea/scx20_sp7731ceb:5.1/LMY47D/12131229:user/release-keys
